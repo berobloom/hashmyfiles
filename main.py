@@ -21,12 +21,12 @@ Global Constants:
 Usage:
 1. To generate hashes for media files in a directory:
     ```bash
-    python3 hash_my_files.py -g /path/to/directory
+    python3 main.py -g /path/to/directory
     ```
 
 2. To verify files against stored hashes in a directory:
     ```bash
-    python3 hash_my_files.py -v /path/to/directory
+    python3 main.py -v /path/to/directory
     ```
 """
 import os
