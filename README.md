@@ -22,7 +22,7 @@ To generate hashes for media files in a directory, use the `-g` option followed 
 python3 hash_my_files.py -g /path/to/directory
 ```
 
-# Verify Hashes
+## Verify Hashes
 
 To verify files against stored hashes in a directory, use the -v option followed by the path to the directory:
 
