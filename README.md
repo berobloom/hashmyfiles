@@ -19,7 +19,7 @@ This script provides functionality to generate SHA256 hashes for media files wit
 To generate hashes for media files in a directory, use the `-g` option followed by the path to the directory:
 
 ```bash
-python3 hash_my_files.py -g /path/to/directory
+python3 main.py -g /path/to/directory
 ```
 
 ### Verify Hashes
@@ -27,7 +27,7 @@ python3 hash_my_files.py -g /path/to/directory
 To verify files against stored hashes in a directory, use the -v option followed by the path to the directory:
 
 ```bash
-python3 hash_my_files.py -v /path/to/directory
+python3 main.py -v /path/to/directory
 ```
 
 ## Contributing
